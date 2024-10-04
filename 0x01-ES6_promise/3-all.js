@@ -6,8 +6,7 @@ export default function handleProfileSignup() {
   return Promise
     .all([uploadPhoto(), createUser()])
     .then((userResp) => {
-      // If the user was successfully created, log the body, firstName, lastName
-	    // to the console
+      // If the user was successfully created, log the body, firstName, lastName to the console
       console.log(`${userResp[0].body} ${userResp[1].firstName} ${userResp[1].lastName}`);
     })
     .catch(() => {
