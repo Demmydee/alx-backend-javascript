@@ -1,21 +1,21 @@
 export default function getListStudents() {
-  const student_1 = {
+  const Student1 = {
     id: 1,
     firstName: 'Guillaume',
     location: 'San Francisco',
   };
 
-  const student_2 = {
+  const Student2 = {
     id: 2,
     firstName: 'James',
     location: 'Columbia',
   };
 
-  const student_3 = {
+  const Student3 = {
     id: 5,
     firstName: 'Serena',
     location: 'San Francisco',
   };
 
-  return [student_1, student_2, student_3];
+  return [Student1, Student2, Student3];
 }
